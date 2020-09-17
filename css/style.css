@@ -1,0 +1,84 @@
+.container{
+  width: 1680px;
+  padding:0px 183px;
+
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 130%;
+  
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #111518;
+}
+
+.warranty-list {
+  width: 1314px ;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  /* padding-left: 164px; */
+  text-decoration: none;
+  list-style-type: none;
+
+  background-color: #F1F1F1;
+}
+
+.warranty-description {
+ position: relative; 
+
+margin-left: 164px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+
+color: #3D3D3D;
+}
+
+.warranty-list li:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.warranty-description:before {
+  position: absolute;
+  left:-52px;
+
+  content: "";
+  background-repeat: no-repeat ;
+  background-position: bottom;
+  width:22px ;
+  height:29px;
+  /* outline: 1px solid black; */
+  margin-right: 10px;
+
+  background-image: url(../img/fire.svg)
+
+}
+
+.warranty-description:after {
+  position: absolute;
+  left: -52px ;
+  top: 40px ;
+
+  content: "";
+  background-repeat: no-repeat ;
+  background-position: bottom;
+  width:22px ;
+  height:29px;
+  /* outline: 1px solid black; */
+  margin-right: 10px;
+
+  background-image: url(../img/v-line.svg)
+}
+
+.important-accent {
+  color: #FF6B09;
+}
